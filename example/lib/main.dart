@@ -1,10 +1,6 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_core/flutter_base_core.dart';
-
 
 void main() {
-  HttpOverrides.global = HttpProxy('192.169.0.100', '8888');
   runApp(const MyApp());
 }
 
