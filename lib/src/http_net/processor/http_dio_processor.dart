@@ -49,7 +49,7 @@ class HttpDioProcessor extends IHttpProcessor {
         receiveTimeout: const Duration(seconds: 3),
         sendTimeout: const Duration(seconds: 3),
         responseType: ResponseType.json,
-        contentType: Headers.formUrlEncodedContentType,
+        //contentType: Headers.formUrlEncodedContentType,
       );
 
   _getBaseUrl() {
